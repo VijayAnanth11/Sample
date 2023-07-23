@@ -1,0 +1,24 @@
+<html>
+    <body>
+
+        <button onclick="showHide()">Show</button>
+        <div id="element" class="element">
+            Hide Show
+        </div>
+
+        <script>
+            const divcon = document.querySelector('#element');
+
+            let showHide = function(){
+                divcon.style.display = 'block';
+            }
+        </script>
+    </body>
+</html>
+
+<style>
+.element{
+    background-color: yellow;
+    display: none;
+}
+</style>
